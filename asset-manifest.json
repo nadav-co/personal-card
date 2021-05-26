@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-card/static/css/main.9b7cc093.chunk.css",
+    "main.js": "/personal-card/static/js/main.deec5dff.chunk.js",
+    "main.js.map": "/personal-card/static/js/main.deec5dff.chunk.js.map",
+    "runtime-main.js": "/personal-card/static/js/runtime-main.b12bb1a1.js",
+    "runtime-main.js.map": "/personal-card/static/js/runtime-main.b12bb1a1.js.map",
+    "static/js/2.32694808.chunk.js": "/personal-card/static/js/2.32694808.chunk.js",
+    "static/js/2.32694808.chunk.js.map": "/personal-card/static/js/2.32694808.chunk.js.map",
+    "static/js/3.722a0980.chunk.js": "/personal-card/static/js/3.722a0980.chunk.js",
+    "static/js/3.722a0980.chunk.js.map": "/personal-card/static/js/3.722a0980.chunk.js.map",
+    "index.html": "/personal-card/index.html",
+    "static/css/main.9b7cc093.chunk.css.map": "/personal-card/static/css/main.9b7cc093.chunk.css.map",
+    "static/js/2.32694808.chunk.js.LICENSE.txt": "/personal-card/static/js/2.32694808.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/personal-card/static/media/DancingScript-Bold.3727d88d.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b12bb1a1.js",
+    "static/js/2.32694808.chunk.js",
+    "static/css/main.9b7cc093.chunk.css",
+    "static/js/main.deec5dff.chunk.js"
+  ]
+}
