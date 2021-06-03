@@ -1,0 +1,31 @@
+.links{
+    margin: 20px 0;
+    div{
+        &:not(:last-child){
+            margin-right: 20px;
+        }
+        
+    }
+    .link{
+        margin-bottom: 15px;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        background-image: url(../../img/icons/type1/link.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .facebook-link{
+        background-image: url(../../img/icons/type1/facebook.png);
+    }
+    .instagram-link{
+        background-image: url(../../img/icons/type1/instagram.png);
+    }
+    .whatsapp-link{
+        background-image: url(../../img/icons/type1/whatsapp.png);
+    }
+    .linkedin-link{
+        background-image: url(../../img/icons/type1/linkedin.png);
+    }
+
+}

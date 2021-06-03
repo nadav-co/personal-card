@@ -1,0 +1,60 @@
+.card-edit {
+    img {
+        &.cover {
+            margin-top: 20px;
+            background-color: $dark-bgc;
+            border: 1px solid $clr1;
+            @media (min-width: 600px) {
+                min-width: 400px;
+                min-height: 400px;
+            }
+            border-radius: 2em;
+        }
+        &.logo {
+            min-height: 150px;
+        }
+    }
+    input {
+        margin-top: 20px;
+        display: block;
+        &[type="file"] {
+            display: none;
+        }
+        &.fullname {
+            width: 100%;
+            padding: 10px 20px;
+            font-size: 1.3em;
+            text-align: center;
+            border: 1px solid $clr1;
+            border-radius: 2em;
+        }
+    }
+
+    .img-container {
+        position: relative;
+    }
+    .upload {
+        display: block;
+        opacity: 0.9;
+        position: absolute;
+        transform: translateX(calc(50vw - 50%));
+        top: calc(50% - 0.6rem);
+        @media (min-width: 600px) {
+            transform: translateX(calc(310px - 50%));
+        }
+    }
+    .save {
+        background-color: $clr4;
+        color: white;
+        font-size: 1.5em;
+        padding: 10px 20px;
+        margin: 30px 0;
+        &:hover {
+            background-color: $clr5;
+            border-color: $clr5;
+        }
+        @media (max-width: 600px) {
+            align-self: center;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.card-details {
+    .img-container{
+        max-width: 100%;
+
+    }
+    img {
+        &.cover {
+            @media (min-width: 600px) {
+                border-radius: 50%;
+                margin-top: 40px;
+            }
+        }
+    }
+    .logo {
+        height: 10vh;
+        object-fit: contain;
+    }
+    h1.name {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 4em;
+        letter-spacing: 3px;
+    }
+}
+.edit-btn{
+    margin-top: 30px;
+}

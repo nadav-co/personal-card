@@ -1,0 +1,22 @@
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/typography";
+
+// Basics
+@import "setup/helpers";
+@import "setup/base";
+
+//Pages
+@import "pages/Home";
+@import "pages/About";
+@import "pages/CardDetails";
+@import "pages/CardEdit";
+@import "pages/CardList";
+
+//cmps
+@import "cmps/DynamicLink";
+@import "cmps/ShowTxt";
+@import "cmps/CardEditMenu";
+@import "cmps/CardPreview";
+
